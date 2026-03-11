@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "name": "Pluma Design System",
+    "version": "1.0.0",
+    "design_intent": "Premium conversational fintech with cinematic luxury-tech styling",
+    "reference_style_summary": "Dark premium SaaS surfaces, oversized rounded modules, soft atmospheric lighting, restrained palette, editorial spacing, minimal chrome, expensive-feeling motion"
+  },
+  "brand": {
+    "name": "Pluma",
+    "personality": [
+      "intelligent",
+      "trustworthy",
+      "calm",
+      "premium",
+      "minimal",
+      "human-centered",
+      "future-facing",
+      "financially credible"
+    ],
+    "positioning": "The first AI financial assistant in Brazil that truly understands the user's money through Open Finance and conversational AI.",
+    "tone_of_voice_in_ui": {
+      "headline": "clear, bold, confident, high-trust",
+      "body": "warm, concise, reassuring, intelligent",
+      "cta": "direct, low-friction, premium"
+    }
+  },
+  "design_principles": [
+    "Prioritize elegance over decoration.",
+    "Use space as a premium signal.",
+    "Interfaces should feel quiet, intelligent, and high-trust.",
+    "Every section must feel art-directed, not assembled from a template.",
+    "Favor depth through light, blur, and layering rather than bright colors.",
+    "Use restrained contrast and minimal accents for a sophisticated fintech feel.",
+    "Keep visual density low and hierarchy obvious.",
+    "Motion should feel subtle and expensive, never playful or noisy.",
+    "Dark surfaces should feel deep and cinematic, not flat black.",
+    "Light sections should feel editorial and refined, not empty."
+  ],
+  "style_keywords": [
+    "luxury fintech",
+    "cinematic minimalism",
+    "editorial SaaS",
+    "graphite glass",
+    "soft glow",
+    "atmospheric depth",
+    "high-trust product design",
+    "premium restraint"
+  ],
+  "layout": {
+    "max_width": "1280px",
+    "content_width": "1200px",
+    "grid": {
+      "desktop_columns": 12,
+      "tablet_columns": 8,
+      "mobile_columns": 4,
+      "gutter": {
+        "desktop": "24px",
+        "tablet": "20px",
+        "mobile": "16px"
+      }
+    },
+    "section_spacing": {
+      "desktop": "112px to 144px",
+      "tablet": "88px to 112px",
+      "mobile": "64px to 88px"
+    },
+    "container_padding": {
+      "desktop": "32px to 48px",
+      "tablet": "24px to 32px",
+      "mobile": "20px to 24px"
+    },
+    "card_padding": {
+      "sm": "20px",
+      "md": "24px",
+      "lg": "32px",
+      "xl": "40px"
+    },
+    "radius": {
+      "panel": "28px",
+      "card": "24px",
+      "button": "9999px",
+      "chip": "9999px",
+      "input": "18px"
+    }
+  },
+  "color_system": {
+    "core": {
+      "forest": "#1C3F3A",
+      "ivory": "#EBE8D8",
+      "white": "#FFFFFF"
+    },
+    "neutrals": {
+      "ink": "#0B0D0C",
+      "graphite": "#111513",
+      "carbon": "#171B19",
+      "smoke": "#66706B",
+      "mist": "#A8B0AB",
+      "line": "rgba(17, 21, 19, 0.08)",
+      "line_dark": "rgba(255, 255, 255, 0.08)"
+    },
+    "semantic": {
+      "background_light": "#FFFFFF",
+      "background_dark": "#1C3F3A",
+      "surface_dark": "#0F1312",
+      "surface_dark_elevated": "#151A18",
+      "surface_light": "rgba(255,255,255,0.78)",
+      "surface_tint": "rgba(28,63,58,0.06)",
+      "text_primary_light": "#111513",
+      "text_secondary_light": "#52605A",
+      "text_primary_dark": "#F7F7F3",
+      "text_secondary_dark": "rgba(247,247,243,0.72)",
+      "accent_soft": "#D7D1BB"
+    },
+    "usage_rules": [
+      "Use white and ivory for calm editorial breathing room.",
+      "Use forest and deep graphite for premium product moments.",
+      "Avoid saturated accent colors.",
+      "Charts and data visuals should use muted tones, not bright neon palettes.",
+      "Borders should be subtle and mostly tonal."
+    ]
+  },
+  "backgrounds": {
+    "light_sections": {
+      "style": "Clean white or warm ivory with extremely subtle tonal variation",
+      "effects": [
+        "barely-visible radial wash",
+        "soft vignette if needed",
+        "no heavy texture"
+      ]
+    },
+    "dark_sections": {
+      "style": "Deep green-charcoal or graphite surfaces with cinematic depth",
+      "effects": [
+        "soft radial glow",
+        "blurred ambient light bloom",
+        "faint layered gradients",
+        "occasional glass reflection"
+      ]
+    },
+    "textured_gradient_sections": {
+      "base_color": "#EBE8D8",
+      "style": "warm editorial cloud gradient",
+      "effects": [
+        "ultra-subtle grain",
+        "organic tonal blending",
+        "soft edge falloff",
+        "no visible pattern repetition"
+      ]
+    }
+  },
+  "typography": {
+    "direction": "Modern grotesk sans-serif with editorial restraint and excellent readability",
+    "font_characteristics": [
+      "clean",
+      "minimal",
+      "neutral",
+      "premium",
+      "slightly soft rather than overly geometric"
+    ],
+    "hierarchy": {
+      "h1": {
+        "size_desktop": "56px to 72px",
+        "size_mobile": "38px to 46px",
+        "line_height": "0.96 to 1.05",
+        "weight": "600 to 700",
+        "tracking": "-0.03em to -0.05em"
+      },
+      "h2": {
+        "size_desktop": "40px to 52px",
+        "size_mobile": "30px to 36px",
+        "line_height": "1.02 to 1.12",
+        "weight": "600 to 700",
+        "tracking": "-0.03em"
+      },
+      "h3": {
+        "size_desktop": "20px to 24px",
+        "size_mobile": "18px to 20px",
+        "line_height": "1.2",
+        "weight": "600"
+      },
+      "body_lg": {
+        "size": "18px to 20px",
+        "line_height": "1.6",
+        "weight": "400 to 500"
+      },
+      "body": {
+        "size": "15px to 17px",
+        "line_height": "1.65",
+        "weight": "400 to 500"
+      },
+      "caption": {
+        "size": "12px to 13px",
+        "line_height": "1.5",
+        "weight": "500"
+      }
+    },
+    "rules": [
+      "Use strong typography hierarchy with fewer font weights.",
+      "Do not overuse bold text.",
+      "Let scale and spacing create impact.",
+      "Headlines should feel intentional and premium, never cramped.",
+      "Body copy should be highly legible and calm."
+    ]
+  },
+  "surfaces": {
+    "cards": {
+      "light_card": {
+        "background": "rgba(255,255,255,0.78)",
+        "border": "1px solid rgba(17,21,19,0.08)",
+        "shadow": "0 10px 30px rgba(15,18,17,0.06)",
+        "backdrop_blur": "8px to 14px"
+      },
+      "dark_card": {
+        "background": "linear-gradient(180deg, rgba(21,26,24,0.92), rgba(12,16,14,0.96))",
+        "border": "1px solid rgba(255,255,255,0.08)",
+        "shadow": "0 20px 60px rgba(0,0,0,0.35)",
+        "inner_highlight": "inset 0 1px 0 rgba(255,255,255,0.06)"
+      },
+      "hero_panel": {
+        "background": "dark cinematic dashboard surface",
+        "shape": "oversized rounded panel",
+        "treatment": [
+          "soft glow bloom",
+          "minimal border",
+          "subtle edge reflection",
+          "ambient blur layers"
+        ]
+      }
+    },
+    "panel_language": [
+      "rounded oversized modules",
+      "deep but soft shadows",
+      "low-noise materials",
+      "glass only when subtle",
+      "never frosted to the point of gimmick"
+    ]
+  },
+  "buttons": {
+    "primary": {
+      "shape": "pill",
+      "padding": "14px 22px",
+      "background": "#111513",
+      "text": "#FFFFFF",
+      "hover": {
+        "transform": "translateY(-1px)",
+        "shadow": "0 10px 24px rgba(17,21,19,0.18)",
+        "background_shift": "slightly lighter"
+      }
+    },
+    "secondary": {
+      "shape": "pill",
+      "padding": "14px 22px",
+      "background": "rgba(17,21,19,0.04)",
+      "text": "#111513",
+      "border": "1px solid rgba(17,21,19,0.08)",
+      "hover": {
+        "background_shift": "rgba(17,21,19,0.06)"
+      }
+    },
+    "dark_section_cta": {
+      "shape": "pill",
+      "padding": "14px 22px",
+      "background": "#F7F7F3",
+      "text": "#111513",
+      "hover": {
+        "transform": "translateY(-1px)",
+        "glow": "soft"
+      }
+    },
+    "rules": [
+      "Buttons should feel tactile and premium.",
+      "Avoid loud gradients.",
+      "Primary CTAs should feel decisive but elegant."
+    ]
+  },
+  "chips": {
+    "prompt_chip": {
+      "shape": "pill",
+      "background": "rgba(255,255,255,0.06)",
+      "border": "1px solid rgba(255,255,255,0.08)",
+      "text": "rgba(247,247,243,0.88)",
+      "padding": "12px 16px",
+      "hover": {
+        "background": "rgba(255,255,255,0.1)",
+        "border_emphasis": "slightly brighter",
+        "transform": "translateY(-2px)",
+        "glow": "subtle"
+      }
+    }
+  },
+  "forms": {
+    "input": {
+      "background": "rgba(255,255,255,0.04)",
+      "border": "1px solid rgba(255,255,255,0.08)",
+      "text": "#F7F7F3",
+      "placeholder": "rgba(247,247,243,0.48)",
+      "radius": "18px",
+      "padding": "16px 18px",
+      "focus": {
+        "border": "1px solid rgba(255,255,255,0.16)",
+        "ring": "soft"
+      }
+    },
+    "chat_input": {
+      "style": "premium AI console input",
+      "treatment": [
+        "dark elevated surface",
+        "soft inner glow",
+        "clean icon buttons",
+        "ample padding"
+      ]
+    }
+  },
+  "icons": {
+    "style": "Lucide icons only",
+    "stroke": "clean, medium weight",
+    "containers": {
+      "light": "soft tinted circular or rounded-square container",
+      "dark": "subtle dark-glass icon chip"
+    },
+    "rules": [
+      "Icons should support content, not dominate it.",
+      "Use simple metaphors and keep icon count restrained."
+    ]
+  },
+  "imagery": {
+    "direction": [
+      "Use product-grade visual compositions rather than generic illustrations.",
+      "Prefer generated mockups of AI finance UI over stock lifestyle clichés.",
+      "When using photos, select premium editorial imagery only.",
+      "Imagery must feel understated, modern, and trustworthy."
+    ],
+    "hero_visual": {
+      "composition": "layered app panels, floating cards, AI chat interface, muted finance metrics",
+      "lighting": "soft bloom, cinematic haze, subtle reflections",
+      "palette": "dark UI surfaces with restrained green/ivory accents",
+      "avoid": [
+        "cartoon illustrations",
+        "bright neon dashboards",
+        "cheap 3D blobs",
+        "generic corporate stock people"
+      ]
+    },
+    "dashboard_cards": {
+      "style": "modular, refined, low-noise, premium fintech",
+      "charts": "minimal, muted, clear, understated"
+    }
+  },
+  "data_visualization": {
+    "principles": [
+      "Data should feel elegant and trustworthy.",
+      "Keep charts simple, minimal, and muted.",
+      "Avoid rainbow palettes and excessive labels.",
+      "Use whitespace and hierarchy to clarify meaning."
+    ],
+    "chart_style": {
+      "background": "dark card or very subtle light card",
+      "gridlines": "minimal or hidden",
+      "labels": "small and quiet",
+      "accents": "forest, ivory, muted gray-green"
+    }
+  },
+  "motion": {
+    "overall_feel": "subtle, premium, restrained",
+    "section_reveal": {
+      "style": "fade + upward drift",
+      "duration": "0.5s to 0.8s",
+      "easing": "smooth, not snappy"
+    },
+    "hover": {
+      "cards": "small elevation and border emphasis",
+      "chips": "slight lift with glow",
+      "buttons": "minimal tactile response"
+    },
+    "rules": [
+      "No bouncy transitions.",
+      "No exaggerated parallax.",
+      "No constant movement.",
+      "Animation should enhance luxury and clarity."
+    ]
+  },
+  "component_system": {
+    "hero": {
+      "layout": "2-column editorial composition",
+      "text_block_width": "tight and readable, not too wide",
+      "visual_block": "oversized product panel with atmospheric depth",
+      "spacing_priority": "headline breathing room, CTA prominence, controlled visual balance"
+    },
+    "feature_card": {
+      "structure": [
+        "icon container",
+        "title",
+        "short description"
+      ],
+      "style": "airy premium card with subtle border and precise spacing"
+    },
+    "ai_demo_panel": {
+      "structure": [
+        "headline",
+        "chat-style input",
+        "suggestion chips",
+        "supporting finance UI fragments"
+      ],
+      "style": "dark product showcase with premium interaction cues"
+    },
+    "assurance_card": {
+      "structure": [
+        "check icon",
+        "single trust statement"
+      ],
+      "style": "stacked, calm, tactile, trustworthy"
+    },
+    "cta_block": {
+      "structure": [
+        "headline",
+        "benefit list",
+        "primary button"
+      ],
+      "style": "centered, spacious, emotionally decisive"
+    },
+    "footer": {
+      "style": "quiet, compact, premium",
+      "structure": [
+        "logo",
+        "links",
+        "legal"
+      ]
+    }
+  },
+  "spacing_rhythm": {
+    "rules": [
+      "Favor large outer spacing and tighter inner grouping.",
+      "Keep consistent vertical rhythm between headline, supporting text, and CTA.",
+      "Cards should never feel cramped.",
+      "Use whitespace to communicate trust and premium quality."
+    ],
+    "headline_to_body": "16px to 24px",
+    "body_to_cta": "24px to 32px",
+    "section_header_to_grid": "32px to 48px",
+    "card_internal_gap": "12px to 18px"
+  },
+  "borders_and_shadows": {
+    "borders": "soft, tonal, low contrast",
+    "shadows": {
+      "light_ui": "soft and diffused",
+      "dark_ui": "deep and atmospheric"
+    },
+    "rules": [
+      "Never use harsh default shadows.",
+      "Use shadow to create cinematic depth, not visual clutter."
+    ]
+  },
+  "responsiveness": {
+    "mobile_direction": [
+      "Preserve premium spacing even on small screens.",
+      "Stack hero content cleanly with strong hierarchy.",
+      "Do not shrink everything too aggressively.",
+      "Keep cards large enough to feel luxurious."
+    ],
+    "tablet_direction": [
+      "Maintain modular grid rhythm.",
+      "Allow large showcase panels to dominate key sections."
+    ]
+  },
+  "content_density": {
+    "target": "low to medium",
+    "rules": [
+      "Say less, with more confidence.",
+      "Avoid long feature lists.",
+      "Keep sections focused and visually calm."
+    ]
+  },
+  "anti_patterns": [
+    "generic startup gradients",
+    "oversaturated purple-blue fintech style",
+    "template-looking section dividers",
+    "crowded hero layouts",
+    "cheap glassmorphism",
+    "too many decorative icons",
+    "aggressive drop shadows",
+    "busy dashboards",
+    "illustration-heavy marketing art",
+    "playful SaaS motion",
+    "small cramped typography"
+  ],
+  "implementation_notes": {
+    "preferred_stack": [
+      "React",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Lucide",
+      "Framer Motion"
+    ],
+    "build_priority": [
+      "visual polish first",
+      "cohesive system second",
+      "micro-interactions third",
+      "extra content last"
+    ],
+    "ai_instruction_summary": "Generate a landing page that feels custom-designed by a premium product studio, using restrained luxury-tech styling, cinematic light, editorial spacing, and trustworthy fintech clarity."
+  }
+}

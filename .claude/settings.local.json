@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(printf \"y\\\\n\")",
+      "Bash(npx create-vite@latest . --template react)",
+      "Bash(npx --yes create-vite@latest pluma-landing --template react)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(\"/c/Users/Administrator/Documents/GitHub/PlumaPortifolio/pluma-landing/src/App.css\":*)"
+    ]
+  }
+}
