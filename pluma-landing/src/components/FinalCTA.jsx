@@ -18,18 +18,28 @@ export default function FinalCTA() {
       className="relative overflow-hidden py-28 md:py-40"
       style={{ background: '#1C3F3A' }}
     >
-      {/* Cinematic radial glow */}
+      {/* Cinematic radial glow — layered */}
       <div className="absolute inset-0 pointer-events-none">
+        {/* Core center glow */}
         <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px]"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px]"
           style={{
-            background: 'radial-gradient(ellipse at 50% 50%, rgba(255,255,255,0.07) 0%, transparent 65%)',
+            background: 'radial-gradient(ellipse at 50% 50%, rgba(255,255,255,0.085) 0%, transparent 60%)',
           }}
         />
+        {/* Warm ivory top beam */}
         <div
-          className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[300px]"
+          className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[350px]"
           style={{
-            background: 'radial-gradient(ellipse at 50% 0%, rgba(235,232,216,0.06) 0%, transparent 60%)',
+            background: 'radial-gradient(ellipse at 50% 0%, rgba(235,232,216,0.07) 0%, transparent 55%)',
+          }}
+        />
+        {/* Deeper green inner glow — pulsing */}
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[300px] animate-glow-pulse"
+          style={{
+            background: 'radial-gradient(ellipse at 50% 50%, rgba(28,90,70,0.2) 0%, transparent 70%)',
+            filter: 'blur(20px)',
           }}
         />
       </div>
@@ -89,11 +99,13 @@ export default function FinalCTA() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: 0.21 }}
         >
           <button
-            className="group inline-flex items-center gap-3 font-medium rounded-full px-8 py-4.5 text-[15px] transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3)]"
+            className="group inline-flex items-center gap-3 font-medium rounded-full px-8 text-[15px] transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(0,0,0,0.35)]"
             style={{
               background: '#F7F7F3',
               color: '#111513',
-              boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
+              paddingTop: '18px',
+              paddingBottom: '18px',
+              boxShadow: '0 10px 30px rgba(0,0,0,0.22)',
             }}
           >
             Teste grátis agora
