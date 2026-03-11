@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd pluma-landing && npm install && npm run build",
+  "outputDirectory": "pluma-landing/dist",
+  "installCommand": "echo skip"
+}
